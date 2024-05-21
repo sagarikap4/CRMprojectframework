@@ -35,5 +35,7 @@ public class HomePage {
 		return Signout;
 		
 	}
+	@FindBy(linktext="invoice")
+	private WebElement invoiclink;
 
 }
